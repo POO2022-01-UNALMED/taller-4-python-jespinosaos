@@ -26,7 +26,7 @@ class Grupo:
    
      
 
-   @classmethod
+    @classmethod
     def asignarNombre(*args):
       for arg in args:
         if arg == "Grado 1":
