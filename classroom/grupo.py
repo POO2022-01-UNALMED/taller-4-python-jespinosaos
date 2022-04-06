@@ -32,4 +32,4 @@ class Grupo:
         if arg == "Grado 1":
           Grupo.grado="Grado 1"
         else:
-          Grupo.grado="Grado"
+          Grupo.grado="Grado 6"
