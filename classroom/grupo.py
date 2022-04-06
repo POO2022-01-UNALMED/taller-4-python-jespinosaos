@@ -1,13 +1,3 @@
-class Asignatura:
-
-    def _init_(self, nombre, salon="remoto"):
-      self._nombre = nombre
-      self._salon = salon
-    def _str_(self):
-      cadena=self._nombre+" " + self._salon
-      return cadena
-
-
 from classroom.asignatura import Asignatura
 
 class Grupo:
@@ -44,4 +34,4 @@ class Grupo:
         if arg == "Grado 1":
           Grupo.grado="Grado 1"
         else:
-          Grupo.grado="Grado
+          Grupo.grado="Grado"
