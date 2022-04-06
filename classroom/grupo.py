@@ -23,12 +23,10 @@ class Grupo:
       lista.append(alumno)
       self.listadoAlumnos = self.listadoAlumnos + lista
       
-      
-        
-       
+   
      
 
-    @classmethod
+   @classmethod
     def asignarNombre(*args):
       for arg in args:
         if arg == "Grado 1":
